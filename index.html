@@ -9,179 +9,175 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Common Syllabi</title>
+    <title>CoSyll: Open source tools for open access to syllabi.</title>
 </head>
 
 <body>
-    <header class="container-md">
-        <div class="left">
-            <div>
-                <h1>Common Syllabi</h1>
-            </div>
-            <div>
-                <p>We make open-source tools for educators.</p>
+    <div class="px-4     my-5 text-center">
+        <img class="d-block mx-auto mb-4 cosyl-logo" src="assets/cosyl_logo.png" alt="Cosyll roject logo">
+        <!-- <h1 class=" display-5 fw-bold">CoSyll</h1> -->
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Building open source tools for open access to syllabi.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a class="btn btn-outline-dark btn-lg px-4" href="http://github.com/commonsyllabi" target="_blank"
+                    rel="noopener noreferrer">GitHub</a>
             </div>
         </div>
-        <div class="right">
-            <img class="cosyl-logo" src="assets/cosyl_logo.png" alt="">
-        </div>
-    </header>
+    </div>
 
     <main class="container-md">
-        <div>
-            <a class="cta" href="http://github.com/commonsyllabi" target="_blank" rel="noopener noreferrer">View our
-                projects on
-                GitHub</a>
-        </div>
-        <h2>Rationale</h2>
-        <p>We believe that open sharing and access brings progress. Currently, the curricula designed by educators are
-            too often locked away behind the walls of proprietary software and institutional accounts. Despite the fact
-            that educators typically own the IP rights to the course material they develop, there are few tools that
-            specifically support <b>the open creation and distribution of learning materials between teachers</b>.
-        </p>
-        <p>This is especially ironic given that academia is, by and large, a field that prizes open sharing and
-            collaborative progress.</p>
+        <div class="py-5">
+            <h2 class="text-center">Projects</h2>
 
-        <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-header">
+                        <h4><a href="http://github.com/commonsyllabi/viewer" target="_blank"
+                                rel="noopener noreferrer">Common Cartridge Viewer<img class="external-link"
+                                    src="assets/external_link.svg" alt="" srcset=""></a></h4>
+                    </div>
 
-        <div class="projects">
-            <div class="project">
-                <div class="project-header">
-                    <h4>Viewer</h4>
-                    <a href="http://http://github.com/commonsyllabi/viewer" target="_blank"
-                        rel="noopener noreferrer"><img class="external-link" src="assets/external_link.svg" alt=""
-                            srcset=""></a>
+
+                    <p>
+                        <a href="http://github.com/commonsyllabi/viewer" target="_blank"
+                            rel="noopener noreferrer">Common Cartridge Viewer</a>
+                        is an open source toolkit that allows users to view the contents of a Common Cartridge package.,
+                        and a repository where users can share them. It includes a command line tool, as well as
+                        web-hosted version (link).
+                    </p>
+
+                    <p>Common Cartridge (CC) is a set of open standards developed by the IMS Global Learning Consortium
+                        that
+                        aims to provide a
+                        standard way to represent digital course materials.The format allows Learning Management Systems
+                        (such as Moodle,
+                        Canvas, Brightspace) to be interoperable, that is syllabi and learning materials may be exported
+                        and
+                        imported between
+                        any compliant platform.</p>
+
                 </div>
 
+                <div class="project">
+                    <div class="project-header">
+                        <h4><a class="project-link" href="http://github.com/commonsyllabi/viewer" target="_blank"
+                                rel="noopener noreferrer">SyllabiExplorer</a></h4>
+                        <a href="http://github.com/commonsyllabi/viewer" target="_blank" rel="noopener noreferrer"><img
+                                class="external-link" src="assets/external_link.svg" alt="" srcset=""></a>
+                    </div>
 
-                <p>
-                    Common Cartridge (CC) is a set of open standards developed by the IMS Global Learning Consortium
-                    that
-                    aims to provide a standard way to represent digital course materials..
-                </p>
+                    <p>
+                        The <a class="project-link" href="http://github.com/commonsyllabi/viewer" target="_blank"
+                            rel="noopener noreferrer">SyllabiExplorer</a> is a platform on which educators can publish
+                        and
+                        browse syllabi.
+                    </p>
 
-                <p>Common Cartridge is a format which allows for the open publication and cataloging of syllabi and
-                    learning
-                    materials on any compliant platform. Unfortunately, the CC format lacks any usable and
-                    well-maintained
-                    tools for handling the format, resulting in the siloing of teaching resources within institutional
-                    learning management systems.</p>
+                    <p>This project aims to address the lack of openly browsable repositories of syllabi and curricula.
+                        Currently, the
+                        curricula designed by educators are too often locked away behind the walls of proprietary
+                        software
+                        and institutional
+                        accounts. Despite the fact that educators typically own the intellectual property rights to the
+                        course material they
+                        develop, there are few tools that specifically support the open sharing and discovery of
+                        learning
+                        materials between
+                        teachers.
+                    </p>
 
-                <p><a class="project-link" href="http://github.com/commonsyllabi/viewer" target="_blank"
-                        rel="noopener noreferrer">Common Syllabi Viewer</a> an open source tool that allows users to
-                    view
-                    Common Cartridge, and a repository where users can share them.</p>
-            </div>
-
-            <div class="project">
-                <div class="project-header">
-                    <h4>Explorer</h4>
-                    <a href="http://http://github.com/commonsyllabi/viewer" target="_blank"
-                        rel="noopener noreferrer"><img class="external-link" src="assets/external_link.svg" alt=""
-                            srcset=""></a>
+                    <p>By and large, education is a field that thrives on open sharing and collaborative progress, and
+                        our
+                        goal with Syllabi
+                        Explorer is to create a platform that enables wide access to curricula.</p>
                 </div>
 
-                <p>
-                    There still exists no platform on which educators can publish
-                    and browse the syllabi they have created for their classes. Virtually every Learning Management
-                    Systems
-                    (LMS) deployed by leading education institutions do not allow for the open sharing of syllabi
-                    content.
-                </p>
+                <div class="project">
+                    <div class="project-header">
+                        <h4><a href="http://github.com/commonsyllabi/multimodal" target="_blank">Writer</a></h4>
+                        <a href="http://github.com/commonsyllabi/multimodal" target="_blank"
+                            rel="noopener noreferrer"><img class="external-link" src="assets/external_link.svg" alt=""
+                                srcset=""></a>
+                    </div>
 
-                <p>If teachers wish to share syllabi they have authored outside of the confines of institutional LMS,
-                    they
-                    may
-                    theoretically do so independently. Some educators resort to self-publishing their syllabi, often on
-                    one-off
-                    microsites. However, these sites, being highly decentralized, unstandardized and often tedious to
-                    maintain,
-                    are difficult to index meaningfully.
-                </p>
+                    <p>
+                        <a href="http://github.com/commonsyllabi/multimodal" target="_blank">CoSyll Writer</a> is an
+                        classroom-centric authoring and presentation app that aims to support educators’ workflow from
+                        curricula design
+                        through instruction. In authoring mode, material and media can be collected and structured in
+                        one
+                        place with ease,
+                        without having to adhere to the constraints of traditional presentation software. This allows
+                        educators to focus on the
+                        design of syllabi, rather than slides. Key concepts and material may be flagged inline, for
+                        presentation in the
+                        classroom. Presentation mode also features teaching tools such as live drawing, diagramming and
+                        discussion note-taking.
+                    </p>
 
-                <p><a class="project-link" href="http://github.com/commonsyllabi/viewer" target="_blank"
-                        rel="noopener noreferrer">Common Syllabi Explorer</a> an open source tool that allows users to
-                    view
-                    Common Cartridge, and a repository where users can share them.</p>
-            </div>
-
-            <div class="project">
-                <div class="project-header">
-                    <h4>Writer</h4>
-                    <a href="http://http://github.com/commonsyllabi/multimodal" target="_blank"
-                        rel="noopener noreferrer"><img class="external-link" src="assets/external_link.svg" alt=""
-                            srcset=""></a>
+                    <p>In the long run, the plan is to also build features to support iterating courses over semesters,
+                        and
+                        branched content,
+                        such as for multiple classes taking the same course.
+                    </p>
                 </div>
-
-                <p>
-                    Classrooms are places of dynamic exchanges and conversation between students and instructors.
-                </p>
-
-                <p> Existing slideware (e.g. Google Slides, Keynote, Powerpoint, etc.), do not support on-the-fly note
-                    taking or diagramming. If linked resources are used, there also arises a need to switch frequently
-                    between multiple windows and applications when preparing and presenting materials.
-                </p>
-
-                <p> <a class="project-link" href="http://github.com/commonsyllabi/multimodal" target="_blank"
-                        rel="noopener noreferrer">Common Syllabi Writer</a> addresses those issues by merging the ease
-                    of use of traditional presentation software with
-                    context building features such as drawing, note-taking, structured document organization and
-                    hyperlinking.
-                </p>
             </div>
         </div>
 
+        <div class="py-5">
+            <h2 class="text-center">Contributors</h2>
+            <div class="contributors">
+                <p class="contributor"><a href="http://pierredepaz.net" target="_blank" rel="noopener noreferrer">Pierre
+                        Depaz</a> (project founder)
+                    is an academic, developer and artist. He is currently lecturing at NYU Berlin,
+                    the Filmuniversität Babelsberg Konrad-Wolf and Sciences Po Paris, while completing his doctoral
+                    thesis
+                    on
+                    the aesthetics of code under the direction of Alexandre Gefen (Sorbonne Nouvelle) and Nick Montfort
+                    (MIT).
+                    His academic research revolves around how software systems create representational frameworks for
+                    inter-
+                    and
+                    intra-personal organization.</p>
+                <p class="contributor">
+                    <a href="http://github.com/grobie" target="_blank" rel="noopener noreferrer">Tobias Schmidt</a> is a
+                    freelance software engineer with a decade of experience of building software at
+                    Soundcloud and is an active contributor to the Prometheus and Kubernetes open-source ecosystems,
+                    amongst
+                    others. Over the last few years he has helped to integrate Prometheus in SoundCloud’s infrastructure
+                    and
+                    worked with product teams to deliver more reliable and secure software products.
+                </p>
 
-
-        <h2>Contributors</h2>
-
-        <div class="contributors">
-            <p class="contributor"><a href="http://pierredepaz.net" target="_blank" rel="noopener noreferrer">Pierre
-                    Depaz</a> (project founder)
-                is an academic, developer and artist. He is currently lecturing at NYU Berlin,
-                the Filmuniversität Babelsberg Konrad-Wolf and Sciences Po Paris, while completing his doctoral thesis
-                on
-                the aesthetics of code under the direction of Alexandre Gefen (Sorbonne Nouvelle) and Nick Montfort
-                (MIT).
-                His academic research revolves around how software systems create representational frameworks for inter-
-                and
-                intra-personal organization.</p>
-            <p class="contributor">
-                <a href="http://github.com/grobie" target="_blank" rel="noopener noreferrer">Tobias Schmidt</a> is a
-                freelance software engineer with a decade of experience of building software at
-                Soundcloud and is an active contributor to the Prometheus and Kubernetes open-source ecosystems, amongst
-                others. Over the last few years he has helped to integrate Prometheus in SoundCloud’s infrastructure and
-                worked with product teams to deliver more reliable and secure software products.
-            </p>
-
-            <p class="contributor"><a href="http://patshiu.com" target="_blank" rel="noopener noreferrer">Pat Shiu</a>
-                is a freelance UX
-                engineer and the former Associate Director of Design at Rhizome, an arts
-                organization that champions born-digital art and culture through commissions, exhibitions, digital
-                preservation, and software development. At Rhizome, worked on the Webrecorder project, an open source
-                suite
-                of tools for web archiving.
-            </p>
+                <p class="contributor"><a href="http://patshiu.com" target="_blank" rel="noopener noreferrer">Pat
+                        Shiu</a>
+                    is an artist, designer and frontend engineer with a background in UX strategy. Pat was the Associate
+                    Director of Design
+                    at Rhizome, an arts organization that champions born-digital art and culture through commissions,
+                    exhibitions, digital
+                    preservation, and software development. At Rhizome, she was part of the team that developed
+                    Webrecorder,
+                    an open source
+                    suite of tools for web archiving.
+                </p>
+            </div>
         </div>
 
-        <h2>Supported by</h2>
-
-        <div class="funders">
-            <div class="funder">
-                <a href="http://prototypefund.de" target="_blank" rel="noopener noreferrer"><img class="funder-logo" src="assets/ptfund_logo.svg" alt="Prototype Fund"></a>
-                
-            </div>
-            <div class="funder">
-                <a href="http://bmbf.de" target="_blank" rel="noopener noreferrer"><img class="funder-logo" src="assets/bmbf_logo.svg" alt="Bundesministerium für Bildung und Forschung"></a>
-                
+        <div class="d-flex flex-column justify-content-center mb-5">
+            <h5 class="text-center mb-4">Supported by</h5>
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <a href="http://prototypefund.de" target="_blank" rel="noopener noreferrer"><img class="funder-logo m-4"
+                        src="assets/ptfund_logo.svg" alt="Prototype Fund"></a>
+                <a href="http://bmbf.de" target="_blank" rel="noopener noreferrer"><img class="funder-logo m-4"
+                        src="assets/bmbf_logo.svg" alt="Bundesministerium für Bildung und Forschung"></a>
             </div>
         </div>
     </main>
 
-    <footer class="container-md">
-        <div>Contact: <a href="mailto:contact@commonsyllabi.org">contact@commonsyllabi.org</a></div>
-        <div>2022 no rights reserved.</div>
-        </footer>
+    <footer class="d-flex justify-content-center">
+        <div class="mx-2">Contact: <a href="mailto:contact@commonsyllabi.org">contact@commonsyllabi.org</a></div>
+        <div class="mx-2">2022</div>
+    </footer>
 </body>
 
 </html>

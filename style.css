@@ -1,16 +1,14 @@
-@import url('https://rsms.me/inter/inter.css');
-
 html,
 body {
-    font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+}
+h1,h2,h3,h4,h5 {
 }
 
 @supports (font-variation-settings: normal) {
-
     html,
     body {
-        font-family: 'Inter var', sans-serif;
+        font-family: sans-serif;
     }
 }
 
@@ -34,44 +32,12 @@ footer{
     align-self: flex-end;
 }
 
-h2 {
-    margin-top: 2rem;
-}
-
-.cta {
-    display: block;
-    width: 40%;
-    margin: auto;
-    padding: 2rem;
-    text-align: center;
-    font-size: 1.4rem;
-    border: 2px solid grey;
-    border-radius: 20px;
-
-    text-decoration: none;
-    color: black;
-}
-
-@media screen and (max-width: 992px) {
-    .cta {
-        padding: 1rem;
-        width: 80%;
-    }
-}
-
-.cta:hover {
-    text-decoration: underline;
-}
-
 .external-link {
     width: 30px;
 }
 
 .cosyl-logo {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 @media screen and (max-width: 992px) {
@@ -100,7 +66,8 @@ h2 {
 
 .contributor,
 .project {
-    padding: 10px;
+    padding: 3rem;
+    width: 33.3%;
 }
 
 .funders {
@@ -112,6 +79,6 @@ h2 {
 }
 
 .funder-logo {
-    width: 200px;
-    height: 200px;
+    min-height: 100px;
+    width: auto;
 }
