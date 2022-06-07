@@ -2,34 +2,12 @@ html,
 body {
     overflow-x: hidden;
 }
-h1,h2,h3,h4,h5 {
-}
 
 @supports (font-variation-settings: normal) {
     html,
     body {
         font-family: sans-serif;
     }
-}
-
-header,
-footer {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer{
-    font-size: 0.7em;
-}
-
-.left {
-    align-self: flex-start;
-}
-
-.right {
-    align-self: flex-end;
 }
 
 .external-link {
@@ -42,39 +20,20 @@ footer{
 
 @media screen and (max-width: 992px) {
     .cosyl-logo {
-        position: initial;
         max-width: 100px;
     }
 }
 
-.project-header {
-    display: flex;
-}
-
-.contributors,
-.projects {
-    display: flex;
-}
-
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 
     .contributors,
     .projects {
         flex-direction: column;
     }
-}
+} */
 
 .contributor,
 .project {
-    padding: 3rem;
-    width: 33.3%;
-}
-
-.funders {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
 
 }
 
