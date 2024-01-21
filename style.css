@@ -39,5 +39,6 @@ body {
 
 .funder-logo {
     min-height: 100px;
+    max-width: 300px;
     width: auto;
 }
